@@ -23,9 +23,6 @@ void printPhoneBook(){
         while (inter.hasNext()){
             Map.Entry<String, String> e = new inter.next();
             System.out.println(e.getKey() + " " + e.getValue());
-
         }
-
 }
-
 }
